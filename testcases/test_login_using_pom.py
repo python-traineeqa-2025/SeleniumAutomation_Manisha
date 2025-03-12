@@ -6,6 +6,11 @@ from Setup.Basetest import BaseTest
 
 from Page_objects.loginpom.loginpage import LoginPage
 class TestLogs(BaseTest):
+
+    # def __init__(self, creds,driver):
+    #     self.creds = creds
+    #     self.driver = driver
+
     def test_login(self):
         url = self.creds["base_url"]
         self.driver.get( url)

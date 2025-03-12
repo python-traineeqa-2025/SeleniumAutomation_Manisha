@@ -10,6 +10,8 @@ class LoginPage(LoginPageProperties):
     def login(self, username, password):
 
         uname = self.user_name_input
+
+        uname = self.user_name_input
         uname.click()
         uname.send_keys(username)
 
